@@ -1,0 +1,38 @@
+.coffeeCard {
+  background-color: white;
+  border-radius: 0.625rem;
+  box-shadow: 0.125rem 0.625rem 2.5rem 0rem rgb(45 65 102 / 10%);
+  position: relative;
+  text-align: center;
+}
+
+.coffeeCard img {
+  left: 50%;
+  position: absolute;
+  top: -5%;
+  transform: translate(-50%, -50%);
+  width: 9.438rem;
+}
+
+.coffeeType {
+  color: rgba(63, 54, 49, 1);
+  font: 700 1.063rem arial;
+  margin: 1.04rem auto 0.06rem;
+}
+
+.coffeeDetails {
+  padding: 0.5rem;
+}
+
+.information {
+  padding-top: 80px;
+}
+
+@media screen and (min-width: 60rem) {
+  .information {
+    font-size: 0.875rem;
+    padding: 0.625rem;
+    padding-top: 94px;
+    margin-top: 0;
+  }
+}

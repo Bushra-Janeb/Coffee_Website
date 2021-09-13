@@ -1,0 +1,24 @@
+.paragraph {
+  text-align: center;
+}
+
+.sentence2 {
+  font-size: 1.625rem;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 0.625rem;
+}
+
+.sentence1 {
+  color: red;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 0.625rem;
+}
+
+@media screen and (min-width: 60rem) {
+  .paragraph {
+    text-align: start;
+  }
+}
